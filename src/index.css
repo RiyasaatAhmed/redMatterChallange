@@ -1,0 +1,65 @@
+/* Universal Style */
+body {
+  margin: 0;
+}
+
+
+
+/* The Entire App */
+.App {
+  text-align: center;
+}
+
+
+
+/* Styles for the Navbar */
+.navbar{
+  width: 7rem;
+  height: 100vh;
+  background-color:#333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-between;
+}
+
+.navbar div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px white solid;
+  transition: all 0.15s ease-in;
+}
+.navbar div:hover{
+  background-color: #cc0f2e;
+}
+.active{
+  background-color: #cc0f2e;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+/* Style for the canvas */
+canvas{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  box-shadow: 1px 5px 15px 5px rgba(0,0,0,0.49);
+  position: absolute;
+  inset: 0;
+  margin: auto
+}
